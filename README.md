@@ -10,6 +10,78 @@ This project was developed and tested in the IBM Skills Network Lab environment 
 
 The AI Interview Coach helps users prepare for interviews by:
 
+- Uploading a Resume (PDF)
+- Providing a Job Description
+- Generating Personalized Interview Questions
+- Conducting Voice-Based Mock Interviews
+- Evaluating Interview Performance using AI
+
+The project demonstrates the practical implementation of AI, speech processing, resume analysis, and cloud-based APIs in career preparation applications.
+
+---
+
+# 🚀 Features
+
+- 📄 Upload Resume PDF
+- 🧠 AI-Powered Interview Question Generation
+- 🎤 Voice-Based Interview Interaction
+- 🔊 Text-to-Speech Interviewer Responses
+- 🗣️ Speech-to-Text Answer Transcription
+- 📊 AI-Generated Interview Evaluation
+- 🌐 Interactive Web Interface using Gradio
+- ☁️ Cloud-Based AI using IBM watsonx.ai
+
+---
+
+# 🛠️ Tech Stack
+
+## Programming Language
+- Python 3.11
+
+## Framework
+- Gradio
+
+## AI Platform
+- IBM watsonx.ai
+
+## Libraries
+- ibm-watsonx-ai
+- faster-whisper
+- gTTS
+- PyPDF2
+
+## Frontend
+- Gradio UI
+
+## Version Control
+- Git & GitHub
+
+## Execution Environment
+- IBM Skills Network Lab
+
+---
+
+# 📂 Project Structure
+
+```bash
+interview-coach-ai/
+│
+├── myapp.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── temp_voice.mp3# 🎤 AI Interview Coach
+
+An AI-powered mock interview assistant that conducts personalized interview sessions using resume analysis, job description understanding, speech recognition, and AI-generated feedback.
+
+This project was developed and tested in the IBM Skills Network Lab environment as part of an academic / internship project.
+
+---
+
+# 📌 Project Overview
+
+The AI Interview Coach helps users prepare for interviews by:
+
 - Uploading a resume (PDF)
 - Providing a job description
 - Generating personalized interview questions
@@ -93,7 +165,6 @@ An AI-powered mock interview application built using Python, Gradio, IBM Watsonx
 - Faster Whisper
 - gTTS
 - PyPDF2
-
 ## Installation
 
 ### Clone Repository
@@ -101,3 +172,33 @@ An AI-powered mock interview application built using Python, Gradio, IBM Watsonx
 ```bash
 git clone https://github.com/Md-Soheb-Khan/interview-coach-ai.git
 cd interview-coach-ai
+# ▶️ How to Run the Project (Skills Network Lab)
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Md-Soheb-Khan/interview-coach-ai.git
+cd interview-coach-ai
+```
+
+## 2️⃣ Create Virtual Environment
+
+```bash
+python3.11 -m venv venv
+source venv/bin/activate
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Run Application
+
+```bash
+python myapp.py
+```
+
+The application will generate:
+- Local URL
+- Public Gradio URL
